@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="victor_miranda">Victor Miranda</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ut diam in congue. Mauris efficitur felis vitae urna mollis,
+        vitae fringilla est sodales. Sed gravida felis tempus efficitur condimentum. Nunc efficitur, purus non ultricies sodales, erat nisi aliquam nulla,
+        nec molestie erat est sit amet enim. Donec placerat elit ac nulla porttitor, sit amet rutrum sapien finibus. Sed posuere scelerisque leo, eu
+        lobortis eros lobortis quis. Proin sodales finibus eros, vel tristique nisi molestie vitae. Donec ac vestibulum lorem. Aenean molestie iaculis elementum.
+        Nulla hendrerit, tortor ac condimentum tincidunt, justo nisi varius erat, id finibus libero est non erat. Integer tempus imperdiet ante vitae semper.
+        Duis porta erat nec tincidunt dapibus. Suspendisse potenti.\n\n
+
+        Sed et est sed odio aliquam dictum. Cras porttitor ex imperdiet lacus porta, a pulvinar
+        massa scelerisque. Etiam at imperdiet leo, eu porta magna. Integer urna ante, sodales ac mi a, maximus luctus mi. Etiam vitae tincidunt lectus.
+        Quisque at consequat justo, eu laoreet dui. Quisque rhoncus dui in nunc congue cursus. Maecenas vehicula lectus et enim tincidunt, sit amet egestas
+        urna molestie. Aliquam arcu nunc, consectetur at dapibus eget, pulvinar sit amet nunc. Mauris iaculis sollicitudin augue vitae commodo. Mauris nec
+        aliquet justo. Etiam vel dui et mauris porttitor semper. Ut eget diam purus. Curabitur at semper nisi. In hac habitasse platea dictumst. Aenean porta
+        mollis enim nec faucibus. \n\n
+
+        Curabitur efficitur aliquet metus ac feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+        turpis egestas. Proin ac sagittis lorem, eu ornare ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie ligula eros, ut
+        pellentesque augue dignissim non. Nunc consectetur congue mauris, eu convallis elit condimentum non. Morbi suscipit posuere mattis. Mauris id laoreet massa.
+        Pellentesque lacinia, sapien sit amet varius volutpat, erat tellus malesuada eros, et interdum est purus eget mauris. Cras et ipsum placerat, sagittis magna tincidunt,
+        egestas velit. Maecenas quam dui, vestibulum at interdum ac, laoreet sit amet turpis. Donec augue elit, gravida et augue vel, imperdiet porta quam. Aliquam nec
+        tincidunt lorem. Pellentesque condimentum sem ut suscipit suscipit. Maecenas eget tincidunt ligula, eget tempus nulla.  \n\n
+
+        Aliquam erat volutpat. Pellentesque porta erat sed blandit semper. Duis sed scelerisque diam. Phasellus maximus mollis felis, at porta sem pharetra sit amet. Suspendisse eu dictum dui. Nam
+        nunc tellus, suscipit ut nulla quis, tristique pellentesque eros. Maecenas sed nisi vitae purus sagittis malesuada eget quis lorem. Integer vitae risus
+        nec tortor feugiat semper eu at purus. Morbi hendrerit non neque eget tincidunt. Maecenas ipsum urna, interdum id urna et, finibus pulvinar libero.
+        Vivamus quam massa, consectetur ac mollis sit amet, semper at ante.</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+</resources>

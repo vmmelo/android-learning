@@ -1,0 +1,3 @@
+[submodule "if1001"]
+	path = if1001
+	url = git@github.com:if1001/if1001.github.io.git
