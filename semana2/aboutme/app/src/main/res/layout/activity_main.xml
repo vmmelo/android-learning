@@ -52,6 +52,7 @@
                 style="@style/NameStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:autoLink="all|web|map|email"
                 android:lineSpacingMultiplier="1.2"
                 android:text="@string/bio" />
 
