@@ -11,5 +11,12 @@ class ProfessorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityProfessorBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val nome = intent.getStringExtra("nome")
+        val login = intent.getStringExtra("login")
+
+        binding.nomeProfessor.text = nome
+        binding.loginProfessor.text = login
+
     }
 }
