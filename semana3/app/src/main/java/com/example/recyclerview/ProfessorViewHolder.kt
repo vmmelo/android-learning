@@ -7,8 +7,10 @@ class ProfessorViewHolder (private val binding: LinhaBinding) : RecyclerView.Vie
     fun bindTo(professor: Professor) {
         binding.nome.text = professor.nome
         binding.login.text = professor.login
-        if(professor.login === "lmt") {
-
+        if(professor.login == "suruagy") {
+            binding.icone.setImageResource(R.drawable.github)
+        } else {
+            binding.icone.setImageResource(R.drawable.bitbucket)
         }
     }
 }

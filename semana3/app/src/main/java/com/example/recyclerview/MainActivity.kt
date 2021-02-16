@@ -14,18 +14,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        val recyclerViewPessoas = binding.listaElementos
 
-        // Como os elementos vão ser organizados
-        binding.listaElementos.layoutManager = LinearLayoutManager(this)
+        recyclerViewPessoas.apply {
+            // Como os elementos vão ser organizados
+            layoutManager = LinearLayoutManager(this@MainActivity)
 
-        // decorando elementos com separados
-        binding.listaElementos.addItemDecoration(
-            DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
-        )
-
-        /** Adapter recebe dados e vai adaptar esses dados para outra função, outro papel
-         Neste caso, o adapter vai receber uma coleção de dados e vai construir a representação visual desses objetos para ser exibido na tela
-        */
-        binding.listaElementos.adapter = ProfessorAdapter(Constants.professores, layoutInflater)
+            // decorando elementos com separados
+//            addItemDecoration(
+//                    DividerItemDecoration(this@MainActivity, DividerItemDecoration.VERTICAL)
+//            )
+            /** Adapter recebe dados e vai adaptar esses dados para outra função, outro papel
+            Neste caso, o adapter vai receber uma coleção de dados e vai construir a representação visual desses objetos para ser exibido na tela
+             */
+            adapter = ProfessorAdapter(Constants.professores, layoutInflater)
+        }
     }
 }
